@@ -1,5 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import LanguageSwitcher from './LanguageSwitcher';
 
 function App() {
   const { t } = useTranslation();
@@ -10,6 +11,8 @@ function App() {
         <h1>{t('hello')}</h1>
         <p>{t('welcome')}</p>
       </div>
+
+      <LanguageSwitcher />
     </>
   );
 }
