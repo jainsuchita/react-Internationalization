@@ -4,9 +4,9 @@
 2. cd react-Internationalization
 3. npm run start
 
-### Part1
-Main branch contains basic demo application to showcase language change based on user input
 
 ### Part2
-'part2' branch contains extension of part1 along with browser's langauge detection feature.
+'part2' branch contains support of browser's langauge detection feature.
 
+### Part3
+'part3' branch contains browser's language support along with Lanaguge switcher.
